@@ -1,0 +1,78 @@
+/*Backlog*/
+#top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-decoration: none; 
+}
+
+#backlog-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    text-align: center; 
+}
+
+#game-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#action-buttons {
+    display: flex;
+    gap:5px;
+}
+
+#new-game {
+    text-align: center;;
+}
+
+/*Register*/
+#register-form {
+    text-align: center;
+}
+
+#review-page {
+    background-color: beige;
+}
+
+
+#review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100%;
+    text-align: center;      
+    box-sizing: border-box;
+}
+
+
+#LoginBody {
+    background-color: beige;
+    text-align: center;
+}
+
+
+#register-body {
+    background-color: beige;
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+
+  text-align: center;
+}
+
+
+#submit-review-body {
+    background-color: beige;
+    text-align: center;
+}
